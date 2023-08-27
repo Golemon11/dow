@@ -1,23 +1,27 @@
+import task.Method1;
+import task.FirstCodeToFix;
+import task.SecondCodeToFix;
+import task.Method3;
+
+
 public class Main {
+
     public static void main(String[] args) {
 
-        BinaryTree<Integer> tree = new BinaryTree<>();
+//  задача 1:
+        Method1 m1 = new Method1();
+        m1.method();
 
-        tree.add(6);
-        tree.add(3);
-        tree.add(2);
-        tree.add(4);
-        tree.add(5);
-        tree.add(1);
-        tree.add(9);
-        tree.add(7);
-        tree.add(11);
-        tree.add(8);
-        tree.add(12);
-        tree.add(15);
-        tree.add(10);
+//  задача 2.1:
+        new FirstCodeToFix();
 
-        tree.print();
+//  задача 2.2:
+        new SecondCodeToFix();
+
+//  задача 3:
+        Method3 m3 = new Method3();
+        m3.method();
+
 
     }
 }
